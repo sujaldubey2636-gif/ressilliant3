@@ -1,0 +1,20 @@
+{
+  "name": "digiquest-brief-system-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DigiQuest Studio Client Pre-Production Brief Collection System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "keywords": ["digiquest", "production-brief", "express", "sqlite"],
+  "license": "MIT",
+  "dependencies": {
+    "sql.js": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}

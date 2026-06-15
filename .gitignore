@@ -27,3 +27,8 @@ build/
 # Logs
 *.log
 npm-debug.log*
+
+# Exclude frontend and root configs
+frontend/
+package.json
+
